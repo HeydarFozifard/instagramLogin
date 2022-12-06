@@ -1,0 +1,226 @@
+/* start the css rest  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button,
+input,
+select {
+    outline: none;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+/* the end of  css rest  */
+
+body {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+}
+::placeholder {
+    font-size: 11px;
+    color: rgb(170, 168, 168);
+    letter-spacing: 0.5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+}
+
+/* start the styling for form  */
+.container_form {
+    width: 350px;
+    min-height: 433px;
+    margin-top: 12px;
+    padding: 10px 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: #fff;
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -45px;
+}
+
+.form input {
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(250, 250, 250);
+    padding: 12px 0 10px 8px;
+    margin: 3px 0px;
+    border-radius: 3px;
+}
+.form input:focus {
+    border: 1px solid rgb(82, 82, 82);
+}
+
+.btn_login {
+    width: 100%;
+    padding: 9px 0 7px 8px;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: #84d6ffb6;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+/*the end of styling for form  */
+
+/* start the styling for facebook box  */
+
+.container_signIn_facebook {
+    line-height: 2;
+    position: relative;
+}
+
+.container_border {
+    position: absolute;
+    top: -60px;
+    right: -5%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container_border p{
+    font-weight: 700;
+    color: #b8b8b8;
+}
+.container_border span {
+    margin: 0 15px;
+    display: inline-block;
+    width: 110px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+.login_facebook {
+    margin-top: -10px;
+    line-height: 2;
+}
+.title_facebook {
+    color: #385185;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.title_facebook .fa-facebook-official {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.title_forgot {
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    color: rgb(82, 82, 82);
+}
+/* the end of styling for facebook box  */
+
+/* start the styling for  sinUp box  */
+
+.singUp_box {
+    width: 350px;
+    margin-top: 10px;
+    padding: 20px 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: #fff;
+    font-size: 14px;
+}
+.singUp_box a {
+    color: #47b5ec;
+    font-weight: 600;
+}
+
+/* the end  of styling for  singUp box  */
+
+/* start the styling for  getApp box  */
+
+.getApp_box p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+
+.getApp_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getApp_img a {
+    width: 136px;
+    height: 40px;
+    margin: 0px 4px 0px 4px;
+}
+.getApp_img img {
+    width: 100%;
+    height: 100%;
+}
+/* the end of the styling for  getApp box  */
+
+
+/* start styleing for footer  */
+
+.list {
+    margin: 70px 0 10px 0;
+}
+.list li a {
+    color: rgb(142, 142, 142);
+    margin: 0 5px;
+    line-height: 2;
+    font-size: 12px;
+}
+
+.form_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.form_footer select {
+    background-color: transparent;
+    color: rgb(142, 142, 142);
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+}
+
+.form_footer p {
+    color: rgb(142, 142, 142);
+    margin: 0 5px;
+    line-height: 2;
+    font-size: 12px;
+}
+/* the end of styleing for footer  */
